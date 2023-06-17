@@ -26,8 +26,15 @@ my_set = {'Ben Nevis', 'Crib Goch', 'Mont Blanc'}
 print('Ben Nevis' in my_set)
 
 my_set.remove('Mont Blanc')
+
+print(len(my_set))
+my_set.add('Crib Goch') # Does not throw an error, does not add duplicate
 print(len(my_set))
 
 print(f'the contents of my_set before clearing: {my_set}')
 my_set.clear()
 print(f'the contents of my_set after clearing: {my_set}')
+
+
+
+
