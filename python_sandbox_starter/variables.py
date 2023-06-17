@@ -13,3 +13,15 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+
+i = 1 # int
+j = "foo" # str
+x = 3.5 # float
+
+z = str(3.5)
+
+print(z, x, x == z)
+
+print(int(x))
+
+print(type(x))
